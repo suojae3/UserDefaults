@@ -11,7 +11,7 @@
 
 ### 02. Default data base란 무엇인가요?
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http:/![https://c](https://www.globalnerdy.com/wp-content/uploads/2018/05/ios-app-sandbox.jpg)" width="400" height="200"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.globalnerdy.com/wp-content/uploads/2018/05/ios-app-sandbox.jpg" width="400" height="200"><br/>
 
 - **UserDefaults는** 메모리에 임시적으로 저장하는 것이 아닌 Sandbox내에 물리적인 파일로 저장됩니다.
 - 이 파일을 **Default data base**라고 부릅니다. 고유한 포멧을 가지고 있기 때문에 파일을 직접 수정할 수는 없고 반드시 User Defaults 클래스를 사용해야합니다.
