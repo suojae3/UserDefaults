@@ -41,7 +41,7 @@ let key = "sampleKey"
     UserDefaults.standard.set("Hello", forKey: key)
 }
 ```
- <br/><br/>
+ 
 
 - User Defaults에 값을 저장할 때는 같은 이름을 가진 클래스를 사용합니다 이때 새로운 인스턴스를 생성해서 변수로 사용할 수 있지만 보통 standard 속성에 리턴하는 싱글톤 속성을 사용합니다
 - 데이터를 저장하는 방법으로는 6개(supported types 갯수)의 set for key 메서드를 사용합니다. 첫번째 파라미터에는 저장할 값을 두번째 파라미터에는 key값을 전달합니다
